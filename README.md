@@ -1,9 +1,9 @@
-# ar_flutter_plugin
+# ar_flutter_plugin_engine
 [![pub package](https://img.shields.io/pub/v/ar_flutter_plugin_engine.svg)](https://pub.dev/packages/ar_flutter_plugin_engine)
 
 Flutter Plugin for (collaborative) Augmented Reality - Supports ARKit for iOS and ARCore for Android devices.
 
-Many thanks to Oleksandr Leuschenko for the [arkit_flutter_plugin](https://github.com/olexale/arkit_flutter_plugin) and to Gian Marco Di Francesco for the [arcore_flutter_plugin_engine](https://github.com/dherediat97/ar_flutter_plugin_engine) which both served as a great basis and starting point for this project.
+Many thanks to Oleksandr Leuschenko for the [arkit_flutter_plugin](https://github.com/olexale/arkit_flutter_plugin) and to Gian Marco Di Francesco for the [arcore_flutter_plugin](https://github.com/giandifra/arcore_flutter_plugin) which both served as a great basis and starting point for this project.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ flutter pub add ar_flutter_plugin_engine
 ```
 
 Or manually add this to your `pubspec.yaml` file (and run `flutter pub get`):
-# ar_flutter_plugin package extension
+# ar_flutter_plugin_engine package extension
 
 ```yaml
 dependencies:
