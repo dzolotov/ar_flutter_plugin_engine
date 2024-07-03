@@ -10,10 +10,10 @@ import 'package:ar_flutter_plugin_engine/datatypes/node_types.dart';
 import 'package:ar_flutter_plugin_engine/datatypes/hittest_result_types.dart';
 import 'package:ar_flutter_plugin_engine/models/ar_node.dart';
 import 'package:ar_flutter_plugin_engine/models/ar_hittest_result.dart';
+import 'package:geoflutterfire2/geoflutterfire2.dart';
 import 'package:vector_math/vector_math_64.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:geoflutterfire/geoflutterfire.dart';
 import 'package:geolocator/geolocator.dart';
 
 class CloudAnchorWidget extends StatefulWidget {
@@ -370,7 +370,7 @@ typedef FirebaseDocumentStreamListener = void Function(
 
 class FirebaseManager {
   FirebaseFirestore? firestore;
-  Geoflutterfire? geo;
+  GeoFlutterFire? geo;
   CollectionReference? anchorCollection;
   CollectionReference? objectCollection;
 
@@ -379,7 +379,7 @@ class FirebaseManager {
     try {
       // Wait for Firebase to initialize
       await Firebase.initializeApp();
-      geo = Geoflutterfire();
+      geo = GeoFlutterFire();
       firestore = FirebaseFirestore.instance;
       anchorCollection = FirebaseFirestore.instance.collection('anchors');
       objectCollection = FirebaseFirestore.instance.collection('objects');
