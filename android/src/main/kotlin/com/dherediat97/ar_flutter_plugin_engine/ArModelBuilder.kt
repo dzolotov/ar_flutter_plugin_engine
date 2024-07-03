@@ -10,11 +10,8 @@ import java.util.concurrent.CompletableFuture
 import android.net.Uri
 import com.dherediat97.ar_flutter_plugin_engine.Serialization.deserializeMatrix4
 import com.dherediat97.ar_flutter_plugin_engine.Serialization.serializeLocalTransformation
-import com.google.ar.core.*
 import com.google.ar.sceneform.rendering.*
 import com.google.ar.sceneform.ux.*
-
-import io.carius.lars.ar_flutter_plugin_engine.Serialization.*
 
 import io.flutter.plugin.common.MethodChannel
 

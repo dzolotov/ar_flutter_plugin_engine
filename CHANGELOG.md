@@ -1,6 +1,9 @@
 # Changelog
 
-##0.7.3
+## 1.0.0
+* Update all versions of kotlin and ARCore in Android, iOS need suport to migrate to the recent SDK
+
+## 0.7.3
 * Update the examples with null-safety
 
 ## 0.7.2
