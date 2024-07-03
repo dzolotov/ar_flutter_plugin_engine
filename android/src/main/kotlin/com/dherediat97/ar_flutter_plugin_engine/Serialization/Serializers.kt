@@ -1,12 +1,9 @@
-package io.carius.lars.ar_flutter_plugin.Serialization
+package com.dherediat97.ar_flutter_plugin_engine.Serialization
 
 import com.google.ar.core.*
 import com.google.ar.sceneform.AnchorNode
-import com.google.ar.sceneform.math.Matrix
-import com.google.ar.sceneform.math.Quaternion
 import com.google.ar.sceneform.math.Vector3
 import com.google.ar.sceneform.ux.BaseTransformableNode
-import com.google.ar.sceneform.ux.TransformableNode
 
 fun serializeHitResult(hitResult: HitResult): HashMap<String, Any> {
     val serializedHitResult = HashMap<String,Any>()

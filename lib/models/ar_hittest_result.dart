@@ -1,7 +1,7 @@
 // The code in this file is adapted from Oleksandr Leuschenko' ARKit Flutter Plugin (https://github.com/olexale/arkit_flutter_plugin)
 
-import 'package:ar_flutter_plugin/datatypes/hittest_result_types.dart';
-import 'package:ar_flutter_plugin/utils/json_converters.dart';
+import 'package:ar_flutter_plugin_engine/datatypes/hittest_result_types.dart';
+import 'package:ar_flutter_plugin_engine/utils/json_converters.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:vector_math/vector_math_64.dart';
 

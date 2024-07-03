@@ -1,4 +1,4 @@
-package io.carius.lars.ar_flutter_plugin
+package com.dherediat97.ar_flutter_plugin_engine
 
 import android.app.Activity
 import android.content.Context

@@ -1,11 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.carius.lars.ar_flutter_plugin_example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
         android:label="ar_flutter_plugin_example"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:exported="true"
-            android:name=".MainActivity"
+            android:name="com.dherediat97.ar_flutter_plugin_engine_example.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/LaunchTheme"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
