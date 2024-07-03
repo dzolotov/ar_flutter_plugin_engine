@@ -1,9 +1,9 @@
 # ar_flutter_plugin
-[![pub package](https://img.shields.io/pub/v/ar_flutter_plugin.svg)](https://pub.dev/packages/ar_flutter_plugin)
+[![pub package](https://img.shields.io/pub/v/ar_flutter_plugin_engine.svg)](https://pub.dev/packages/ar_flutter_plugin_engine)
 
 Flutter Plugin for (collaborative) Augmented Reality - Supports ARKit for iOS and ARCore for Android devices.
 
-Many thanks to Oleksandr Leuschenko for the [arkit_flutter_plugin](https://github.com/olexale/arkit_flutter_plugin) and to Gian Marco Di Francesco for the [arcore_flutter_plugin](https://github.com/giandifra/arcore_flutter_plugin) which both served as a great basis and starting point for this project.
+Many thanks to Oleksandr Leuschenko for the [arkit_flutter_plugin](https://github.com/olexale/arkit_flutter_plugin) and to Gian Marco Di Francesco for the [arcore_flutter_plugin_engine](https://github.com/dherediat97/ar_flutter_plugin_engine) which both served as a great basis and starting point for this project.
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ Many thanks to Oleksandr Leuschenko for the [arkit_flutter_plugin](https://githu
 Add the Flutter package to your project by running:
 
 ```bash
-flutter pub add ar_flutter_plugin
+flutter pub add ar_flutter_plugin_engine
 ```
 
 Or manually add this to your `pubspec.yaml` file (and run `flutter pub get`):
@@ -20,7 +20,7 @@ Or manually add this to your `pubspec.yaml` file (and run `flutter pub get`):
 
 ```yaml
 dependencies:
-  ar_flutter_plugin: ^0.7.3
+  ar_flutter_plugin_engine: ^1.0.0
 ```
 
 ### Importing
@@ -28,7 +28,7 @@ dependencies:
 Add this to your code:
 
 ```dart
-import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
+import 'package:ar_flutter_plugin_engine/ar_flutter_plugin.dart';
 ```
 
 If you have problems with permissions on iOS (e.g. with the camera view not showing up even though camera access is allowed), add this to the ```podfile``` of your app's ```ios``` directory:
